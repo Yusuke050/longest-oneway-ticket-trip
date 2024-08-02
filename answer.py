@@ -106,7 +106,7 @@ if __name__ == "__main__":
         graph[u].append((v, d))
         graph[v].append((u, d))
 
-    max_length, route = find_longest_path(graph)
+    _, route = find_longest_path(graph)
     # 結果を出力
     for node in route:
         print(f"{node}\r\n", end="")
