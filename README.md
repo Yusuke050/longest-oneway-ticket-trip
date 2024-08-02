@@ -18,7 +18,7 @@
 <pre>
 .
 ├── answer.py 
-├── input.py 
+├── input.txt
 └── README.md 
 </pre>
 
